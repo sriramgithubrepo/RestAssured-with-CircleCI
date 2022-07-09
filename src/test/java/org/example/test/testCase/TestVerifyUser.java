@@ -1,7 +1,9 @@
-package org.example.test;
+package org.example.test.testCase;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import io.restassured.response.Response;
+import org.example.test.setUp.Endpoints;
+import org.example.test.setUp.Utility;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -19,7 +21,7 @@ public class TestVerifyUser {
 
     @BeforeEach
     public void setUpConnectionToGetUsers(){
-        response=Utility.getResponse(Endpoints.getUsersURL());
+        response= Utility.getResponse(Endpoints.getUsersURL());
     }
     @Test
     public void isUserExists(){

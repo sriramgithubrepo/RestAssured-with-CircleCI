@@ -1,3 +1,3 @@
-org\example\test\Utility.class
-org\example\test\TestVerifyUser.class
-org\example\test\Endpoints.class
+org\example\test\setUp\Utility.class
+org\example\test\setUp\Endpoints.class
+org\example\test\testCase\TestVerifyUser.class
