@@ -9,6 +9,7 @@ public class Endpoints {
     private static final String user = "/users";
     private static final String post = "/posts";
     private static final String comments = "/comments";
+    public static final String username="Samantha";
 
     public static RequestSpecification reqBuilder(String BASE_URL) {
         RestAssured.baseURI = BASE_URL;
