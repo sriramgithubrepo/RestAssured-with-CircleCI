@@ -12,23 +12,6 @@ public class Endpoints {
     private static final String comments = "/comments";
     private static final String username="Samantha";
 
-    public static RequestSpecification reqBuilder(String BASE_URL) {
-        RestAssured.baseURI = BASE_URL;
-        RequestSpecification request = RestAssured.given();
-        return request;
-    }
-    public static Response getResponse(String BASE_URL) {
-        Response response = reqBuilder(BASE_URL).get();
-        return response;
-    }
-    public static boolean isAPICallSuccess(Response response) {
-        int code = response.getStatusCode();
-        if( code == 200 ) return true;
-        return false;
-    }
-    public static String getResponseContent(Response response) {
-        return response.getBody().asString();
-    }
     public static String getUsersURL(){
         return BASE_URL+ user;
     }
