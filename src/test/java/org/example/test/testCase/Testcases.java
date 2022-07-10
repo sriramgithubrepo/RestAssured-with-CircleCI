@@ -18,8 +18,8 @@ import java.util.regex.Pattern;
 public class Testcases {
     private List<String> userLists;
     private static Response response;
-    private static List<Integer> postIDList=new ArrayList<Integer>();
-    private static int userID=0;
+    private static List<Integer> postIDList;
+    private static int userID;
 
     @Test
     @Order(1)
@@ -52,6 +52,7 @@ public class Testcases {
     @Test
     @Order(3)
     public void isPostExists() throws IOException {
+        postIDList=new ArrayList<Integer>();
         response=Utility.getResponse(Endpoints.getPostsURL());
         if(Utility.isAPICallSuccess(response)) {
             String resp = Utility.getResponseContent(response);
@@ -73,7 +74,7 @@ public class Testcases {
     public void isEmailFormatValid() throws IOException {
         String regex = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^-]+(?:\\.[a-zA-Z0-9_!#$%&'*+/=?`{|}~^-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$";
         Pattern pattern = Pattern.compile(regex);
-        if(postIDList.size()>0) {
+        if(postIDList!=null && postIDList.size()>0) {
             for (Integer id : postIDList) {
                 Response response = Utility.reqBuilder(Endpoints.getCommentsURL()).
                         queryParam("postId", id).get();
