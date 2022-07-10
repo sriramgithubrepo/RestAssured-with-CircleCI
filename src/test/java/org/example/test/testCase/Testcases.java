@@ -54,7 +54,7 @@ public class Testcases {
     public void isPostExists() throws IOException {
         response=Utility.getResponse(Endpoints.getPostsURL());
         if(Utility.isAPICallSuccess(response)) {
-            String resp = Endpoints.getResponseContent(response);
+            String resp = Utility.getResponseContent(response);
             for (JsonNode node : Utility.constructListFromResponseString(resp)) {
                 if (node.get("userId").asInt() == userID) {
                     postIDList.add(node.get("id").asInt());
@@ -77,7 +77,7 @@ public class Testcases {
             for (Integer id : postIDList) {
                 Response response = Utility.reqBuilder(Endpoints.getCommentsURL()).
                         queryParam("postId", id).get();
-                if (Endpoints.isAPICallSuccess(response)) {
+                if (Utility.isAPICallSuccess(response)) {
                     String resp = Utility.getResponseContent(response);
                     ArrayNode commentsList = Utility.constructListFromResponseString(resp);
                     if (commentsList.size() > 0) {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.test.testCase.Testcases" time="12.037" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.test.testCase.Testcases" time="11.069" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\gs1-sriramb\AppData\Local\Temp\surefire8831515406703062573\surefirebooter7637272663204504118.jar C:\Users\gs1-sriramb\AppData\Local\Temp\surefire8831515406703062573 2022-07-10T10-34-11_563-jvmRun1 surefire2213993129069683669tmp surefire_0343109151622321475tmp"/>
+    <property name="sun.java.command" value="C:\Users\gs1-sriramb\AppData\Local\Temp\surefire9203402775583379400\surefirebooter9020941360775132690.jar C:\Users\gs1-sriramb\AppData\Local\Temp\surefire9203402775583379400 2022-07-10T11-05-53_244-jvmRun1 surefire91837802970728388tmp surefire_02410296541322381162tmp"/>
     <property name="surefire.test.class.path" value="C:\Task\apiTask\target\test-classes;C:\Task\apiTask\target\classes;C:\Users\gs1-sriramb\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\gs1-sriramb\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\gs1-sriramb\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\gs1-sriramb\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\gs1-sriramb\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\gs1-sriramb\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.6\jackson-databind-2.9.6.jar;C:\Users\gs1-sriramb\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\gs1-sriramb\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.6\jackson-core-2.9.6.jar;C:\Users\gs1-sriramb\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gs1-sriramb\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gs1-sriramb\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gs1-sriramb\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gs1-sriramb\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\gs1-sriramb\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\gs1-sriramb\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\gs1-sriramb"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\gs1-sriramb\AppData\Local\Temp\surefire8831515406703062573\surefirebooter7637272663204504118.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\gs1-sriramb\AppData\Local\Temp\surefire9203402775583379400\surefirebooter9020941360775132690.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Program Files\Zulu\zulu-8\jre\lib\sunrsasign.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,8 +62,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="getUsers" classname="org.example.test.testCase.Testcases" time="3.73"/>
-  <testcase name="isUserExists" classname="org.example.test.testCase.Testcases" time="0.257"/>
-  <testcase name="isPostExists" classname="org.example.test.testCase.Testcases" time="0.23"/>
-  <testcase name="isEmailFormatValid" classname="org.example.test.testCase.Testcases" time="7.795"/>
+  <testcase name="getUsers" classname="org.example.test.testCase.Testcases" time="3.707"/>
+  <testcase name="isUserExists" classname="org.example.test.testCase.Testcases" time="0.232"/>
+  <testcase name="isPostExists" classname="org.example.test.testCase.Testcases" time="0.239"/>
+  <testcase name="isEmailFormatValid" classname="org.example.test.testCase.Testcases" time="6.869"/>
 </testsuite>
