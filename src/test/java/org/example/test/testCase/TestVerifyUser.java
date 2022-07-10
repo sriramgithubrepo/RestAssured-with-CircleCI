@@ -29,7 +29,7 @@ public class TestVerifyUser {
         if(Utility.isAPICallSuccess(response)) {
             userLists = response.getBody().jsonPath().getList("username");
             System.out.println(userLists);
-            assertThat(userLists, hasItems(Endpoints.username));
+            assertThat(userLists, hasItems(Endpoints.getUserName()));
         }
         else{
            Assertions.fail("Get User API call failed");
@@ -39,7 +39,7 @@ public class TestVerifyUser {
     public void  getUserID() throws IOException{
         String resp = response.getBody().asString();
         for (JsonNode node : Utility.constructListFromResponseString(resp)) {
-            if(node.get("username").asText().equals(Endpoints.username)){
+            if(node.get("username").asText().equals(Endpoints.getUserName())){
                 userID= node.get("id").asInt();
             }
         }
