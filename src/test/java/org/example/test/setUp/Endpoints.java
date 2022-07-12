@@ -10,7 +10,7 @@ public class Endpoints {
     private static final String user = "/users";
     private static final String post = "/posts";
     private static final String comments = "/comments";
-    private static final String username="Samantha";
+    private static final String username="Samanthaaa";
 
     public static String getUsersURL(){
         return BASE_URL+ user;

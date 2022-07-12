@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: org.example.test.testCase.TestVerifyUser
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.566 s <<< FAILURE! - in org.example.test.testCase.TestVerifyUser
+org.example.test.testCase.TestVerifyUser.isUserExists  Time elapsed: 0.309 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: (a collection containing "Samanthaaa")
+     but: a collection containing "Samanthaaa" mismatches were: [was "Bret", was "Antonette", was "Samantha", was "Karianne", was "Kamren", was "Leopoldo_Corkery", was "Elwyn.Skiles", was "Maxime_Nienow", was "Delphine", was "Moriah.Stanton"]
+	at org.example.test.testCase.TestVerifyUser.isUserExists(TestVerifyUser.java:32)
+
+org.example.test.testCase.TestVerifyUser.getUserID  Time elapsed: 0.252 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: User not exists
+	at org.example.test.testCase.TestVerifyUser.getUserID(TestVerifyUser.java:47)
+

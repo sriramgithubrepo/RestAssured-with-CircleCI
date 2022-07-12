@@ -27,7 +27,7 @@ public class Utility {
     /**@description This method verifies if API call is Success by validating Status code */
     public static boolean isAPICallSuccess(Response response) {
         int code = response.getStatusCode();
-        if( code == 200 || code == 201 || code == 202 || code == 203 || code == 204 || code == 205) return true;
+        if( code == 200 ) return true;
         return false;
     }
     /**@description This method converts RestAssured Response body into String */
