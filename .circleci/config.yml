@@ -20,7 +20,7 @@ jobs:
       - checkout
       # Then run your tests!
       - run:
-          name: test
+          name: Test
           command: mvn test
 
 # Invoke jobs via workflows
