@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.example.test.testCase.Testcases
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.471 s <<< FAILURE! - in org.example.test.testCase.Testcases
-org.example.test.testCase.Testcases.verifyUserExists  Time elapsed: 0.212 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: User does not exists
-	at org.example.test.testCase.Testcases.verifyUserExists(Testcases.java:50)
-
-org.example.test.testCase.Testcases.verifyPostExists  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: User does not exists, hence no post available
-	at org.example.test.testCase.Testcases.verifyPostExists(Testcases.java:76)
-
-org.example.test.testCase.Testcases.verifyEmailFormat  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: User does not exists,hence no email to validate
-	at org.example.test.testCase.Testcases.verifyEmailFormat(Testcases.java:107)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.112 s - in org.example.test.testCase.Testcases

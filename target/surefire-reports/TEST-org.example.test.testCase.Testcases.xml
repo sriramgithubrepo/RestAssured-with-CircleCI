@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.test.testCase.Testcases" time="3.471" tests="4" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.test.testCase.Testcases" time="9.112" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\gs1-sriramb\AppData\Local\Temp\surefire7354011582554156113\surefirebooter607629015016197817.jar C:\Users\gs1-sriramb\AppData\Local\Temp\surefire7354011582554156113 2022-07-12T12-09-03_038-jvmRun1 surefire6443195029967020680tmp surefire_07846983558788724417tmp"/>
+    <property name="sun.java.command" value="C:\Users\gs1-sriramb\AppData\Local\Temp\surefire9041028906879388462\surefirebooter5441556024826546271.jar C:\Users\gs1-sriramb\AppData\Local\Temp\surefire9041028906879388462 2022-07-12T12-44-32_031-jvmRun1 surefire5317317356715595331tmp surefire_0893884334198899005tmp"/>
     <property name="surefire.test.class.path" value="C:\Task\apiTask\target\test-classes;C:\Task\apiTask\target\classes;C:\Users\gs1-sriramb\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\gs1-sriramb\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\gs1-sriramb\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\gs1-sriramb\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\gs1-sriramb\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\gs1-sriramb\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.6\jackson-databind-2.9.6.jar;C:\Users\gs1-sriramb\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\gs1-sriramb\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.6\jackson-core-2.9.6.jar;C:\Users\gs1-sriramb\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gs1-sriramb\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gs1-sriramb\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gs1-sriramb\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gs1-sriramb\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\gs1-sriramb\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\gs1-sriramb\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\gs1-sriramb\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\gs1-sriramb"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\gs1-sriramb\AppData\Local\Temp\surefire7354011582554156113\surefirebooter607629015016197817.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\gs1-sriramb\AppData\Local\Temp\surefire9041028906879388462\surefirebooter5441556024826546271.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Program Files\Zulu\zulu-8\jre\lib\sunrsasign.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,20 +61,60 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="getUsers" classname="org.example.test.testCase.Testcases" time="3.236"/>
-  <testcase name="verifyUserExists" classname="org.example.test.testCase.Testcases" time="0.212">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: User does not exists
-	at org.example.test.testCase.Testcases.verifyUserExists(Testcases.java:50)
-]]></failure>
-  </testcase>
-  <testcase name="verifyPostExists" classname="org.example.test.testCase.Testcases" time="0.001">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: User does not exists, hence no post available
-	at org.example.test.testCase.Testcases.verifyPostExists(Testcases.java:76)
-]]></failure>
-  </testcase>
-  <testcase name="verifyEmailFormat" classname="org.example.test.testCase.Testcases" time="0.001">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: User does not exists,hence no email to validate
-	at org.example.test.testCase.Testcases.verifyEmailFormat(Testcases.java:107)
-]]></failure>
+  <testcase name="getUsers" classname="org.example.test.testCase.Testcases" time="3.694"/>
+  <testcase name="verifyUserExists" classname="org.example.test.testCase.Testcases" time="0.245"/>
+  <testcase name="verifyPostExists" classname="org.example.test.testCase.Testcases" time="0.244"/>
+  <testcase name="verifyEmailFormat" classname="org.example.test.testCase.Testcases" time="4.911">
+    <system-out><![CDATA[PostID:21. Email to validate: Lura@rod.tv Is Valid? :true
+PostID:21. Email to validate: Lottie.Zieme@ruben.us Is Valid? :true
+PostID:21. Email to validate: Winona_Price@jevon.me Is Valid? :true
+PostID:21. Email to validate: Gabriel@oceane.biz Is Valid? :true
+PostID:21. Email to validate: Adolph.Ondricka@mozell.co.uk Is Valid? :true
+PostID:22. Email to validate: Allen@richard.biz Is Valid? :true
+PostID:22. Email to validate: Nicholaus@mikayla.ca Is Valid? :true
+PostID:22. Email to validate: Kayla@susanna.org Is Valid? :true
+PostID:22. Email to validate: Gideon@amina.name Is Valid? :true
+PostID:22. Email to validate: Cassidy@maribel.io Is Valid? :true
+PostID:23. Email to validate: Stefan.Crist@duane.ca Is Valid? :true
+PostID:23. Email to validate: Aniyah.Ortiz@monte.me Is Valid? :true
+PostID:23. Email to validate: Laverna@rico.biz Is Valid? :true
+PostID:23. Email to validate: Derek@hildegard.net Is Valid? :true
+PostID:23. Email to validate: Tyrell@abdullah.ca Is Valid? :true
+PostID:24. Email to validate: Reyes@hailey.name Is Valid? :true
+PostID:24. Email to validate: Danika.Dicki@mekhi.biz Is Valid? :true
+PostID:24. Email to validate: Alessandra.Nitzsche@stephania.us Is Valid? :true
+PostID:24. Email to validate: Matteo@marquis.net Is Valid? :true
+PostID:24. Email to validate: Joshua.Spinka@toby.io Is Valid? :true
+PostID:25. Email to validate: Annabelle@cole.com Is Valid? :true
+PostID:25. Email to validate: Kacey@jamal.info Is Valid? :true
+PostID:25. Email to validate: Mina@mallie.name Is Valid? :true
+PostID:25. Email to validate: Hudson.Blick@ruben.biz Is Valid? :true
+PostID:25. Email to validate: Domenic.Durgan@joaquin.name Is Valid? :true
+PostID:26. Email to validate: Alexie@alayna.org Is Valid? :true
+PostID:26. Email to validate: Haven_Barrows@brant.org Is Valid? :true
+PostID:26. Email to validate: Marianne@maximo.us Is Valid? :true
+PostID:26. Email to validate: Fanny@danial.com Is Valid? :true
+PostID:26. Email to validate: Trevion_Kuphal@bernice.name Is Valid? :true
+PostID:27. Email to validate: Emmet@guy.biz Is Valid? :true
+PostID:27. Email to validate: Megane.Fritsch@claude.name Is Valid? :true
+PostID:27. Email to validate: Amya@durward.ca Is Valid? :true
+PostID:27. Email to validate: Jasen_Rempel@willis.org Is Valid? :true
+PostID:27. Email to validate: Harmony@reggie.com Is Valid? :true
+PostID:28. Email to validate: Rosanna_Kunze@guy.net Is Valid? :true
+PostID:28. Email to validate: Ressie.Boehm@flossie.com Is Valid? :true
+PostID:28. Email to validate: Domenic.Wuckert@jazmyne.us Is Valid? :true
+PostID:28. Email to validate: Rhett.OKon@brian.info Is Valid? :true
+PostID:28. Email to validate: Mathias@richmond.info Is Valid? :true
+PostID:29. Email to validate: Ottis@lourdes.org Is Valid? :true
+PostID:29. Email to validate: Estel@newton.ca Is Valid? :true
+PostID:29. Email to validate: Bertha@erik.co.uk Is Valid? :true
+PostID:29. Email to validate: Joesph@matteo.info Is Valid? :true
+PostID:29. Email to validate: Alva@cassandre.net Is Valid? :true
+PostID:30. Email to validate: Vivienne@willis.org Is Valid? :true
+PostID:30. Email to validate: Angelita@aliza.me Is Valid? :true
+PostID:30. Email to validate: Timmothy_Okuneva@alyce.tv Is Valid? :true
+PostID:30. Email to validate: Moriah_Welch@richmond.org Is Valid? :true
+PostID:30. Email to validate: Ramiro_Kuhn@harmon.biz Is Valid? :true
+]]></system-out>
   </testcase>
 </testsuite>

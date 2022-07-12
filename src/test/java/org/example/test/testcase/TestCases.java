@@ -1,10 +1,10 @@
-package org.example.test.testCase;
+package org.example.test.testcase;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import io.restassured.response.Response;
-import org.example.test.setUp.Endpoints;
-import org.example.test.setUp.Utility;
+import org.example.test.setup.EndPoints;
+import org.example.test.setup.Utility;
 import org.junit.jupiter.api.*;
 
 import java.io.IOException;
@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
-public class Testcases {
+public class TestCases {
     private List<String> userLists;
     private static Response response;
     private static List<Integer> postIDList;
@@ -26,7 +26,7 @@ public class Testcases {
     @Order(1)
     /**@description This method verifies if we can get all the users */
     public void getUsers() {
-        response = Utility.getResponse(Endpoints.getUsersURL());
+        response = Utility.getResponse(EndPoints.getUsersURL());
         if (Utility.isAPICallSuccess(response)) {
             userLists = response.getBody().jsonPath().getList("username");
         } else {
@@ -41,14 +41,13 @@ public class Testcases {
     public void verifyUserExists() throws IOException {
         String resp = Utility.getResponseContent(response);
         for (JsonNode node : Utility.constructListFromResponseString(resp)) {
-            if (node.get("username").asText().equals(Endpoints.getUserName())) {
+            if (node.get("username").asText().equals(EndPoints.getUserName())) {
                 userID = node.get("id").asInt();
                 break;
             }
         }
         if (userID == 0) {
             Assertions.fail("User does not exists");
-
         }
     }
 
@@ -56,9 +55,9 @@ public class Testcases {
     @Order(3)
     /**@description This method verifies there are posts for the user "Samantha" */
     public void verifyPostExists() throws IOException {
-        if (postIDList != null && postIDList.size() > 0) {
             postIDList = new ArrayList<Integer>();
-            response = Utility.getResponse(Endpoints.getPostsURL());
+            response = Utility.getResponse(EndPoints.getPostsURL());
+        if (userID > 0) {
             if (Utility.isAPICallSuccess(response)) {
                 String resp = Utility.getResponseContent(response);
                 for (JsonNode node : Utility.constructListFromResponseString(resp)) {
@@ -85,7 +84,7 @@ public class Testcases {
         Pattern pattern = Pattern.compile(regex);
         if (postIDList != null && postIDList.size() > 0) {
             for (Integer id : postIDList) {
-                Response response = Utility.reqBuilder(Endpoints.getCommentsURL()).
+                Response response = Utility.reqBuilder(EndPoints.getCommentsURL()).
                         queryParam("postId", id).get();
                 if (Utility.isAPICallSuccess(response)) {
                     String resp = Utility.getResponseContent(response);
