@@ -27,4 +27,4 @@ jobs:
       # Then run your tests!
       - run:
           name: test
-          command: mvn test
+          command: mvn clean test

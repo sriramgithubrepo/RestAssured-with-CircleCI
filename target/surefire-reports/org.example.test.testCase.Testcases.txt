@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: org.example.test.testCase.Testcases
+Test set: org.example.test.testcase.TestCases
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.112 s - in org.example.test.testCase.Testcases
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.501 s - in org.example.test.testcase.TestCases
