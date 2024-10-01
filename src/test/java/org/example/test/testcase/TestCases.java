@@ -17,7 +17,6 @@ import java.util.regex.Pattern;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
 public class TestCases {
-    private List<String> userLists;
     private static Response response;
     private static List<Integer> postIDList;
     private static int userID;
@@ -28,7 +27,7 @@ public class TestCases {
     public void getUsers() {
         response = Utility.getResponse(EndPoints.getUsersURL());
         if (Utility.isAPICallSuccess(response)) {
-            userLists = response.getBody().jsonPath().getList("username");
+            response.getBody().jsonPath().getList("username");
         } else {
             //Assert.fail("Get User API call failed");
             Assertions.fail("Get User API Call failed");
